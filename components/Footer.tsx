@@ -16,6 +16,7 @@ export default function Footer() {
           <p className="text-xs uppercase tracking-wide text-paper/50 mb-4">Company</p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/case-studies" className="hover:text-lime">Case Studies</Link></li>
+            <li><Link href="/blogs" className="hover:text-lime">Blogs</Link></li>
             <li><Link href="/about" className="hover:text-lime">About Us</Link></li>
             <li><Link href="/contact" className="hover:text-lime">Contact Us</Link></li>
           </ul>

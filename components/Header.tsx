@@ -9,6 +9,7 @@ const links = [
   { href: "/services", label: "Services" },
   { href: "/case-studies", label: "Case Studies" },
   { href: "/about", label: "About Us" },
+  { href: "/blogs", label: "Blogs" },
 ];
 
 export default function Header() {

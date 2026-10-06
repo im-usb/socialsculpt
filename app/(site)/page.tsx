@@ -228,6 +228,10 @@ export default function Home() {
               <motion.div
                 whileHover={{ y: -6 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
+                className="h-full"
+              >
+              <Link
+                href={`/case-studies/${c.slug}`}
                 className="border-2 border-ink rounded-2xl p-6 flex flex-col justify-between h-full"
               >
                 <div>
@@ -248,6 +252,7 @@ export default function Home() {
                     <p className="text-xs text-ink/60">{c.stat2.label}</p>
                   </div>
                 </div>
+              </Link>
               </motion.div>
             </Reveal>
           ))}
